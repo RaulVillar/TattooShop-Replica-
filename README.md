@@ -4,7 +4,7 @@ OBJECTIVE: As an apprentice in web developing I have been told to build up a rep
 STEPS: I will write down in order every step I have followed during this process.  
   1. Using JIRA to divide tasks (AGILE METHODOLGY).
   2. Making a visual replica on FIGMA.
-  3. Coding on HTML and CSS the initial webpage *I have been doing minor improvents in the code every time I had the chance to learn something new*
+  3. Coding on HTML and CSS the initial webpage *I have been doing minor improvents in the code every time I had the chance to learn something new*.
   4. Uploading it to GitHub. 
 
 The webpage is still under development. 

@@ -14,16 +14,16 @@ body {
 }
 
 .logo_webpage {
-    margin-top: -20px;
+    margin-top: -2vh;
 }
 
 #navbar {
     list-style: none;
     display: flex;
     color: white;
-    margin-top: -130px;
+    margin-top: -12vh;
     font-size: 90%;
-    padding-left: 1230px;
+    padding-left: 130vh;
 }
 
 .nav_link, .button { 
@@ -40,14 +40,14 @@ body {
     color: white;
     display: flex;
     justify-content: left;
-    margin-top: 180px;
+    margin-top: 19.5vh;
     font-size: 580%;
 }
 
 .sub_title {
     color: gray;
     font-size: 90%;
-    margin-bottom: 100px;
+    margin-bottom: 10.64vh;
 }
 
 .button {

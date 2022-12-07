@@ -11,19 +11,20 @@ body {
     background-image: url(Pictures/tattoo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: fixed;
 }
 
 .logo_webpage {
-    margin-top: -2vh;
+    margin-top: -5vh;
 }
 
 #navbar {
     list-style: none;
     display: flex;
     color: white;
-    margin-top: -12vh;
+    margin-top: -13vh;
     font-size: 90%;
-    padding-left: 130vh;
+    padding-left: 125vh;
 }
 
 .nav_link, .button { 
@@ -66,4 +67,17 @@ body {
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+
+.side_text {
+    position: relative;
+    right: 3vh;
+}
+
+.page2 {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    
 }

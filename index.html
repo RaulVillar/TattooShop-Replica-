@@ -6,38 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tattoo Shop</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+        font-family: "Harlow";
+        src:url("/Fonts/HelveticaNeueCyrBold.ttf");
+    }
+         @font-face {
+        font-family: "Harlowlight";
+        src:url("/Fonts/HelveticaNeueCyr-Light.ttf");
+        }
+    </style>
 </head>
 
 <body>
     <section>
-        <div class="side_text">
-            <a href="#"><img class="logo_webpage" src="Pictures/Icon.png" width="60px" height="60px"></a>
+        <div class="header">        <!-- Navigation bar -->
+            <div class="side_text">
+                <a href="#"><img class="logo_webpage" src="Pictures/logo.png" width="60px" height="60px"></a>
+            </div>
+            <div> 
+                <ul id="navbar">
+                    <li><a class="nav_link" style="color:red" href="#">HOME</a></li>
+                    <li><a class="nav_link" href="/About/index.html">ABOUT</a></li>
+                    <li><a class="nav_link" href="#">OUR WORKS</a></li>
+                    <li><a class="nav_link" href="#">SERVICES</a></li>
+                    <li><a class="nav_link" href="#">APPOINTMENT</a></li>
+                </ul>
+            </div>
+            <div class="side_text">
+                <h1 class="main_title">Tenebris<br>Tattoo Studio</h1>
+                <h2 class="sub_title">It's permanent - make it look good</h2>
+            </div>
+            <div class="side_text">
+                <p><a class="button1" style="color:red" href="#">SCROLL DOWN</a></p>
+            </div>
+        </div>                      <!-- Learn More About Us -->
+        <div class="page2">
+            <div class="text_page2">
+                <p>
+                    Tenebris is a licensed, health department certified<br>
+                    <span style="color: #ff0000">tattoo</span>parlor. We have the freshest take on traditional<br>
+                    tattoo styles and some of the best artists in town.
+                </p> 
+            </div>
+            <div class="button2">
+                <button class="button2">LEARN MORE ABOUT US</button>
+            </div>
         </div>
-        <div> 
-        <!--Corregir las flex-box y el padding de la barra de navegación-->
-            <ul id="navbar">
-                <li><a class="nav_link" style="color:red" href="#">HOME</a></li>
-                <li><a class="nav_link" href="#">ABOUT</a></li>
-                <li><a class="nav_link" href="#">OUR WORKS</a></li>
-                <li><a class="nav_link" href="#">SERVICES</a></li>
-                <li><a class="nav_link" href="#">APPOINTMENT</a></li>
-            </ul>
-        </div>
-        <div class="side_text">
-            <h1 class="main_title">Tenebris<br>Tattoo Studio</h1>
-            <h2 class="sub_title">It's permanent - make it look good</h2>
-        </div>
-        <div class="side_text">
-            <p><a class="button" style="color:red" href="#">SCROLL DOWN</a></p>
+        <div class="services">
+            <div class="block1">
+                <img class="man" src="Pictures/man.jpg">
+            </div>
+            <div class="block2">
+                <div>
+                    <h1 class="servicetitle">Services</h1>
+                </div>
+                <div>
+                    <h2 class="servicetitle2">Tattoo</h2>
+                    <p class="servicetext">Custom designs of old and new school tattoos<br>
+                        by celebrity artists from all over the world.</p>
+                </div>
+                <div>
+                    <h2 class="servicetitle2">Piercing</h2>
+                    <p class="servicetext">Skilled and educated piercing pros. We practice<br>
+                        classic needle piercing instead of machines.</p>
+                </div>
+                <div>
+                    <h2 class="servicetitle2">Aftercare</h2>
+                    <p class="servicetext">Expert care and individual service<br>
+                        guaranteed after you get your tattoo.</p>
+                </div>
+                <div>
+                    <p><a class="button3" href="#">LEARN MORE</a></p>
+                </div>
+                
+            </div>
         </div>
     </section>
-    <section class="page2">
-        <div>Tenebris is a licensed, health department certified tattoo parlor. We have the freshest take on traditional tattoo styles and some of the best artists in town.
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </div>
-
-    </section>
-    
 </body>
     
 </html>

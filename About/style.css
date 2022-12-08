@@ -1,0 +1,142 @@
+* {
+    margin: auto;
+    padding: 15px;
+    font-family: "Harlow";
+}
+
+/*Bar navigation */
+
+.logo_webpage {
+    margin-top: -5vh;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: -13vh;
+    font-size: 80%;
+    padding-left: 115vh;
+}
+
+.nav_link { 
+    color:grey;
+    text-decoration: none;
+    font-family: "Harlow";
+}
+
+.nav_link:hover {
+    color: red;
+}
+
+/* Picture 1 plus text */
+
+.picture1 {
+    display: flex;
+    margin-top: -10vh;
+   
+}
+
+    .bloq1t {
+        margin-top: 1vh;
+    }
+        .title1 {
+        font-size: 7vh;
+
+        }
+
+        .text1 {
+        font-family: "Harlowlight";
+        color: rgb(99, 78, 78);
+        font-size: 2vh;
+        line-height: 3vh;
+        }
+    
+        .photo1 {
+            width: 60.69009584664536vh;
+            height: 79.17358892438764vh;
+        }
+
+/* Picture 2 plus text */
+
+.picture2 {
+    display: flex;
+}
+
+    .bloq2t {
+
+    }
+
+        .title2 {
+        font-size: 3vh;
+        text-align: right;
+        }
+
+        .text2 {
+        font-family: "Harlowlight";
+        color: rgb(99, 78, 78);
+        font-size: 2vh;
+        line-height: 3vh;
+        }
+
+        .photo2 {
+            width: 66.69009584664536vh;
+            height: 73.17358892438764vh;
+        }
+
+/* Information about our work */
+
+.black1 {
+    position: absolute;
+    background-color: black;
+    right: 0;
+    left: 0;
+    top: 195vh;
+    height: 50vh;
+}
+
+.information {
+    display: flex;
+    margin-top: 12vh;
+}
+
+    .tinfo {
+        color: white;
+    }
+
+        .info1 {
+            font-size: 5.5vh;
+        }
+        
+        .info2 {
+            text-align: center;
+            font-size: 1.8;
+        }
+
+        /* Review */
+
+
+.review {
+    position: flex;
+    margin-top: 75vh;
+    text-align: center;
+}
+    .reviewtitle {
+        font-size: 7vh;
+    }
+
+    .Jolyne {
+        border-radius: 50%;
+    }
+
+    .reviewprofile {
+        font-size: 2.7vh;
+        margin-top: -5vh;
+    }
+
+    .reviewtext {
+        font-family: "Harlowlight";
+        font-style: italic;
+        font-size: 2.6vh;
+        line-height: 4vh;
+    }

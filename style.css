@@ -93,7 +93,7 @@
         font-weight: bold;
     }
 
-    .button2 {
+    .button2, .button4, .button5 {
         font-family: "Harlow";
         text-align: center;
         margin-top: 1vh;
@@ -101,11 +101,11 @@
         background-color: white;
     }
 
-    .button2:hover {
+    .button2, .button4, .button5:hover {
         color: red;
     }
 
-                            /*Services*/
+                                /*Services*/
 
 .services {
     display: flex;
@@ -159,3 +159,74 @@
             -webkit-transform: translateY(1.5px);
             transform: translateY(1.5px);
         }
+                                /*Tenebris Artists*/
+
+.Tenebris-Artists {
+    margin-top: 300vh;
+}       
+
+    .maintitleartists {
+        text-align: center;
+        font-size: 6vh;
+        margin-top: -7vh;
+        margin-bottom: 2vh;
+    }
+    .artists {
+        display: flex;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+        .socials {
+        margin-left: -1vh;
+        margin-top: -2vh;
+        }
+
+        .artistname {
+            font-size: 1.87vh;
+        }
+
+        .artistname:hover {
+            color: red;
+        }
+        
+        .artisttext {
+            font-family: "Harlowlight";
+            font-size: 1.8vh;
+            line-height: 2.7vh;
+            color: rgb(70, 68, 68);
+            margin-top: -1vh;
+        }
+
+        .artistpicture:hover {
+            transform: scale(0.95);
+        }
+
+        .artistpicture { 
+            transition: all .2s ease-in-out; 
+            margin-left: -1.5vh;
+        }
+
+        .button4 {
+            display: flex;
+        }
+
+                                        /*Ready to get inked*/
+
+        
+.container {
+    display: flex;
+}
+
+    .titleinked {
+        font-size: 6.7vh;
+    }
+
+    .button5 {
+        display: flex;
+        margin-top: 7vh;
+    }
+
+    .getinked {
+        margin-right: -16.3vh;
+    }

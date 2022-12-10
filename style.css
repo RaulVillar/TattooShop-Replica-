@@ -19,28 +19,32 @@
     height: 97vh;
 }
                                 /*Navigation bar */
-.logo_webpage {
-    margin-top: -2vh;
-}
 
-#navbar {
+
+.navbarblock {
+    display: flex;
+}
+    .logo_webpage {
+        margin-right: 100vh;
+    }
+
+.navbar {
     list-style: none;
     display: flex;
     color: white;
-    margin-top: -15vh;
     font-size: 80%;
-    padding-left: 125vh;
+    margin-top: -5vh;
+    margin-right: 5.7vh;
 }
 
-.nav_link, .button1 { 
-    color:grey;
-    text-decoration: none;
-    font-family: "Harlow";
-}
+    .navbaritems, .button1 { 
+        color:grey;
+        text-decoration: none;
+    }
 
-.nav_link:hover {
-    color: red;
-}
+    .navbaritems:hover {
+        color: red;
+    }
 
 
     .main_title {
@@ -101,9 +105,10 @@
         background-color: white;
     }
 
-    .button2, .button4, .button5:hover {
+    .button2:hover {
         color: red;
     }
+    
 
                                 /*Services*/
 
@@ -144,15 +149,15 @@
 
         .servicetext {
             font-family: "Harlowlight";
-            line-height: 2vh;
+            line-height: 2.5vh;
             color: rgb(212, 201, 201);
         }
 
         .button3 {
             position: absolute;
             text-decoration: none;
-            font-size: 85%;
-            color: white;
+            font-size: 80%;
+            color: white
         }
 
         .button3:hover{
@@ -211,6 +216,10 @@
             display: flex;
         }
 
+        .button4:hover {
+            color: red;
+        }
+
                                         /*Ready to get inked*/
 
         
@@ -227,6 +236,66 @@
         margin-top: 7vh;
     }
 
+    .button5:hover {
+        color: red;
+    }
+
     .getinked {
         margin-right: -16.3vh;
     }
+
+                                    /*Example of Tattoos*/
+    
+
+.examplecontainer {
+    margin-top: 6vh;
+}
+
+    .examplepictures1, .examplepictures2 {
+        display: flex;
+        justify-content: center;
+    }
+
+        .pictureblock {
+            width: 24vh;
+            height: 25vh;
+            margin: -1.6vh;
+            margin-top: -4.85vh;
+            transition: all .2s ease-in-out; 
+        }
+
+        .pictureblock:hover {
+            transform: scale(0.95);
+        }
+                                     /*Footer*/
+
+.footerbackground {
+    background-color: black;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 13vh;
+}
+
+    .footersocials {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .navbarcontainer {
+        display: flex;
+    }
+
+        .footernavbar {
+            display: flex;
+            list-style: none;
+            color: white;
+            margin-bottom: 13vh;
+        }
+
+        .forhover {
+            font-size: 1.4vh;
+        }
+        .forhover:hover {
+            color: red;
+        }

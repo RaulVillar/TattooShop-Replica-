@@ -13,6 +13,7 @@ STEPS: I will write down in order every step I have followed during this process
 PROBLEMS TO BE SOLVED:
   1. Understand how flex-boxes work (Margins and paddings)
   2. Responsive for every type of device. 
-  3. How to get the background image with the inspection tool. 
+  3. Fix de navigation bar (hover does not work properly)
+  4. Fix the section 3: picture must go all the way to the left. 
   
 The webpage is still under development. 

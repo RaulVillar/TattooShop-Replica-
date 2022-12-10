@@ -20,14 +20,14 @@
 }
                                 /*Navigation bar */
 .logo_webpage {
-    margin-top: 0vh;
+    margin-top: -2vh;
 }
 
 #navbar {
     list-style: none;
     display: flex;
     color: white;
-    margin-top: -18vh;
+    margin-top: -15vh;
     font-size: 80%;
     padding-left: 125vh;
 }
@@ -118,14 +118,21 @@
 }
 
     .block1 {
+        display: flex;
+        position: relative;
+        margin-left: 0;
     }
         .man {
-            width: 89.80191693290735vh;
+            width: 94.80191693290735vh;
             height: 105.35037273695421vh;
+            
         }
 
     .block2 {
+        display: block;
+        text-align: left;
         color: white;  
+        margin-right: 36vh;
     }
         .servicetitle {
             font-size: 8vh;

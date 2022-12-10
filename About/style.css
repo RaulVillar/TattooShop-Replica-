@@ -113,13 +113,16 @@
             font-size: 1.8;
         }
 
-        /* Review */
+                    /* Review */
 
 
 .review {
     position: flex;
     margin-top: 75vh;
     text-align: center;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 0.1vh;
 }
     .reviewtitle {
         font-size: 7vh;
@@ -140,3 +143,67 @@
         font-size: 2.6vh;
         line-height: 4vh;
     }
+
+                            /* About */
+    
+.aboutus {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 115vh;
+    margin-top: 215vh;
+}
+    .textaboutus {
+        position: relative;
+        text-align: center;
+        font-family: "Harlow";
+        font-size: 5vh;
+        font-weight: bold;
+    }
+    
+    .button1 {
+        font-family: "Harlow";
+        text-align: center;
+        margin-top: 1vh;
+        border-color: black;
+        background-color: white;
+    }
+    
+    .button1:hover {
+        color: red;
+    }
+
+                    /* Footer */
+
+.footerbackground {
+    background-color: black;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 70vh;
+}
+
+    .footersocials {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .navbarcontainer {
+        display: flex;
+    }
+
+        .footernavbar {
+            display: flex;
+            list-style: none;
+            color: white;
+            margin-bottom: 13vh;
+        }
+
+        .forhover {
+            font-size: 1.4vh;
+        }
+        .forhover:hover {
+            color: red;
+        }
+                    

@@ -1,0 +1,144 @@
+* {
+    margin: auto;
+    padding: 15px;
+    font-family: "Harlow";
+}
+
+                                /*Bar navigation */
+
+.logo_webpage {
+    margin-top: -3.5vh;
+    margin-left: 1.8vh;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: -13vh;
+    font-size: 80%;
+    padding-left: 117vh;
+    margin-right: 5vh;
+}
+
+.nav_link { 
+    color:grey;
+    text-decoration: none;
+    font-family: "Harlow";
+}
+
+.nav_link:hover {
+    color: red;
+}
+
+                            /*Artists*/
+
+.artists-container, .artists-container2, .artists-container3 {
+    display: flex;
+}
+
+.artists-container2, .artists-container3  {
+    margin-top: 18vh;
+}
+
+
+    .Cash-picture {
+        margin-right: -12vh;
+    }
+
+    .Cash-Math {
+        font-size: 4vh;
+    }
+
+    .Founder {
+        font-size: 1.7vh;
+    }
+
+    .Artist-text {
+        font-family: "Harlowlight";
+        font-size: 1.7vh;
+        line-height: 2.5vh;
+        color: rgb(88, 86, 86);
+    }
+
+.Cashtatoo-container {
+    margin-top: 1.4vh;
+}
+
+    .Cash-tattoos1, .Cash-tattoos2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -5.3vh;
+        margin-left: -1vh;
+    }
+
+    .tattooblock {
+        transition: all .2s ease-in-out; 
+    }
+
+    .tattooblock:hover {
+        transform: scale(0.95);
+    }
+
+                                    /*Book an Appointment*/
+
+.AnAppointmentcontainer {
+    display: flex;
+    margin-top: 15vh;
+}
+
+    .getinked {
+        font-size: 6.7vh;
+    }  
+
+    .appointmentbutton {
+        display: flex;
+        margin-top: 7vh;
+        font-family: "Harlow";
+        text-align: center;
+        border-color: black;
+        background-color: white;
+    }
+
+    .appointmentbutton:hover {
+        color: red;
+    }
+
+    .appointmentpicture {
+        margin-right: -10vh;
+        width: 100vh;
+        height: 130vh;
+    }
+
+                                        /* Footer */
+
+.footerbackground {
+    background-color: black;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: -5.3vh;
+}
+
+    .footersocials {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .navbarcontainer {
+        display: flex;
+    }
+
+        .footernavbar {
+            display: flex;
+            list-style: none;
+            color: white;
+            margin-bottom: 13vh;
+        }
+
+        .forhover {
+            font-size: 1.4vh;
+        }
+        .forhover:hover {
+            color: red;
+        }

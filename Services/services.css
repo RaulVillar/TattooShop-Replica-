@@ -1,0 +1,117 @@
+* {
+    margin: auto;
+    padding: 15px;
+    font-family: "Harlow";
+}
+
+/*Bar navigation */
+
+.logo_webpage {
+    margin-top: -3.5vh;
+    margin-left: 1.8vh;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: -13vh;
+    font-size: 80%;
+    padding-left: 117vh;
+    margin-right: 5vh;
+}
+
+.nav_link {
+    color: grey;
+    text-decoration: none;
+    font-family: "Harlow";
+}
+
+.nav_link:hover {
+    color: red;
+}
+
+/* Services container */
+
+
+.services-container {
+    display: flex;
+}
+
+.services-title {
+    margin-bottom: 140vh;
+    font-size: 7vh;
+    letter-spacing: 0.4px
+}
+
+.pictures-container {
+    display: flex;
+}
+
+h2 {
+    font-size: 3.5vh;
+}
+
+.pictures-text {
+    font-family: "Harlow";
+    font-size: 1.6vh;
+    font-weight: 300;
+    line-height: 2.5vh;
+    color: rgba(51, 51, 51, 0.856);
+    letter-spacing: 0.8px;
+}
+
+.black-background {
+    position: absolute;
+    background-color: black;
+    right: 0;
+    left: 0;
+    top: 195vh;
+    height: 50vh;
+    display: block;
+    position: flex;
+    text-align: center;
+    padding-bottom: 13vh;
+}
+
+.discount {
+    color: white;
+    margin-top: 13vh;
+    line-height: 83.9493px;
+    letter-spacing: 0.4px;
+    font-size: 59.9638px;
+}
+
+.percentage {
+    color: red;
+    font-size: 9vh;
+}
+
+.button {
+    position: absolute;
+    margin-left: -10vh;
+    text-decoration: none;
+    font-size: 80%;
+    color: white;
+}
+
+.button:hover{
+    -webkit-transform: translateY(1.5px);
+    transform: translateY(1.5px);
+}
+
+
+.schedule-container { 
+    display: flex;
+    margin-top: 71vh;
+}
+
+.schedule {
+    color: black;
+    font-size: 4.6vh;
+    margin-left: 7vh;
+}
+
+.schedule-picture {
+    margin-left: 31vh;
+}
